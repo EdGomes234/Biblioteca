@@ -3,10 +3,6 @@
   <img width="650" height="700" alt="Captura de tela 2026-01-20 171820" src="https://github.com/user-attachments/assets/62d9269c-fd2b-47fc-838f-499fff7b7103" />
   
   `Área do Administrador`
-  
-  <img width="650" height="700" alt="Captura de tela 2026-01-20 171940" src="https://github.com/user-attachments/assets/407435c0-9fd5-4371-aa02-b50f54467d04" />
-
-  `Área da Frequência`
 </div>
 
 
