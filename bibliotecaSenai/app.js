@@ -47,7 +47,7 @@ app.use(cors());
 
 // Configuração de conexão com o banco de dados
 const dbConfig = {
-    user: 'appUser4',        // Substitua com seu usuário do SQL Server
+    user: 'appUser1',        // Substitua com seu usuário do SQL Server
     password: '12345',      // Substitua com sua senha do SQL Server
     server: 'localhost',        // Ou o nome do seu servidor SQL
     database: 'Biblioteca',
