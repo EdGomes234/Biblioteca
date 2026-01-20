@@ -66,7 +66,7 @@ END
 ELSE
     PRINT 'Tabela Livros já existe.';
 GO
-
+ 
 -- Tabela de registros de empréstimos
 IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Emprestimo')
 BEGIN
@@ -111,10 +111,10 @@ BEGIN
     INSERT INTO Livros (Titulo, Autor, Editora, Edicao, Volume, Quantidade, AnoPublicacao, Imagem) 
     VALUES
     ('Introdução à Programação', 'Alice Souza', 'TechBooks', '1ª', 1, 5, 2022, 'https://marketplace.canva.com/EAE4oJOnMh0/1/0/1003w/canva-capa-de-livro-de-suspense-O7z4yw4a5k8.jpg'),
-    ('Estruturas de Dados', 'Carlos Silva', 'EducaBook', '2ª', 1, 3, 2021, NULL),
-    ('Banco de Dados SQL', 'Maria Costa', 'Informatics', '3ª', 1, 4, 2020, NULL),
-    ('Algoritmos Avançados', 'Roberto Lima', 'TechPrint', '1ª', 1, 2, 2023, NULL),
-    ('JavaScript Essencial', 'Ana Melo', 'DevBooks', '2ª', 1, 6, 2019, NULL);
+    ('Estruturas de Dados', 'Carlos Silva', 'EducaBook', '2ª', 1, 3, 2021, 'https://marketplace.canva.com/EAE4oJOnMh0/1/0/1003w/canva-capa-de-livro-de-suspense-O7z4yw4a5k8.jpg'),
+    ('Banco de Dados SQL', 'Maria Costa', 'Informatics', '3ª', 1, 4, 2020, 'https://marketplace.canva.com/EAE4oJOnMh0/1/0/1003w/canva-capa-de-livro-de-suspense-O7z4yw4a5k8.jpg'),
+    ('Algoritmos Avançados', 'Roberto Lima', 'TechPrint', '1ª', 1, 2, 2023, 'https://marketplace.canva.com/EAE4oJOnMh0/1/0/1003w/canva-capa-de-livro-de-suspense-O7z4yw4a5k8.jpg'),
+    ('JavaScript Essencial', 'Ana Melo', 'DevBooks', '2ª', 1, 6, 2019, 'https://marketplace.canva.com/EAE4oJOnMh0/1/0/1003w/canva-capa-de-livro-de-suspense-O7z4yw4a5k8.jpg');
     PRINT '5 livros inseridos.';
 END
 ELSE
