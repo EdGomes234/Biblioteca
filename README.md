@@ -1,6 +1,6 @@
 <h1 align="center">📚 Biblioteca Digital</h1>
 <div align=center>
-  <img width="500" height="500" alt="Captura de tela 2026-01-20 171820" src="https://github.com/user-attachments/assets/62d9269c-fd2b-47fc-838f-499fff7b7103" />
+  <img width="500" height="420" alt="Captura de tela 2026-01-20 171820" src="https://github.com/user-attachments/assets/62d9269c-fd2b-47fc-838f-499fff7b7103" />
   
   `Área do Administrador`
 </div>
